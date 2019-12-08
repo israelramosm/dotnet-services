@@ -12,4 +12,7 @@ dotnet add package Microsoft.EntityFrameworkCore.InMemory
 code -r ../TodoApi
 ```
 
-Press Ctrl+F5 to run the app. In a browser, go to following URL: https://localhost:5001/WeatherForecast.
+## Run the App
+
+Press Ctrl+F5 to run the app. 
+In a browser, go to following URL: https://localhost:5001/WeatherForecast.
