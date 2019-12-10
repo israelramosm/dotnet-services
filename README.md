@@ -16,3 +16,15 @@ code -r ../TodoApi
 
 Press Ctrl+F5 to run the app. 
 In a browser, go to following URL: https://localhost:5001/WeatherForecast.
+
+
+## Dot NET Core CLI
+
+CLI to create controller and more.
+
+```shell
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet tool install --global dotnet-aspnet-codegenerator
+dotnet aspnet-codegenerator controller -name TodoItemsController -async -api -m TodoItem -dc TodoContext -outDir Controllers
+```
