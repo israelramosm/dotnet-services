@@ -2,6 +2,9 @@
 
 Simple dotnet webapi application using rest services.
 
+TODO: Next thiadd jwt
+[jwt tutorial that I found on internet](https://jasonwatmore.com/post/2019/10/11/aspnet-core-3-jwt-authentication-tutorial-with-example-api)
+
 ## Starting
 
 link: <https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio-code>
@@ -16,10 +19,12 @@ code -r ../TodoApi
 
 ## Run the App
 
-Install C# extensions
+### Install C# extensions
+
+- C# extension : Microsoft
 
 Press Ctrl+F5 to run the app.
-In a browser, go to following URL: <https://localhost:5001/WeatherForecast.>
+In a browser, go to following URL: <https://localhost:5001/api/WeatherForecast>
 
 ## Dot NET Core CLI
 
